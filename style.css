@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Red Hat Display", sans-serif;
+    height: 2600px;
+    overflow-x: hidden;
+}
+
+p {
+    font-weight: lighter;
+}
+
+header {
+    background-color: rgb(81, 171, 171);
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+header img {
+    position: absolute;
+    top: 0.4%;
+    left: -1%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+li {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 45px;
+    color: white;
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.hero {
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    display: flex;
+    font-weight: lighter;
+    max-width: 500px;
+}
+
+.hero h2 {
+    color: rgb(55, 162, 162);
+    padding-top: 35px;
+}
+
+.hero h3 {
+    color: rgb(55, 162, 162);
+    margin-top: 20px;
+}
+
+.hero button {
+    margin-top: 35px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(81, 171, 171);
+    padding: 30px;
+    border-radius: 30px;
+    border: 0.5px rgb(87, 153, 153);
+    cursor: pointer;
+}
+
+.hero button:hover {
+    box-shadow: rgb(168, 167, 167) 10px 5px 22px;
+    transition: linear 0.3s;
+    background-color: rgb(84, 179, 179);
+}
+
+.hero img {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    z-index: 2;
+}
+
+.hero p {
+    max-width: 400px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.central {
+    position: absolute;
+    left: 45%;
+    top: 56.8%;
+    z-index: 0;
+    width: 700px;
+    height: 780px;
+    background: linear-gradient(90deg, rgb(55, 162, 162) 20%, rgba(62, 122, 138) 100%);
+    border-radius: 20px;
+    box-shadow: rgb(58, 129, 129) 1px 1px 120px;
+}
+
+.iconlocal {
+    padding-top: 8px;
+    padding-right: 3px;
+    width: 27px;
+    height: 30px;
+}
+
+.iconhorario {
+    width: 40px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.central h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.3), 0px -5px 35px rgba(255, 255, 255, 0.2);
+}
+
+.central iframe {
+    position: relative;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px black;
+}
+
+.central p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 8px 6px rgba(82, 81, 81, 0.3), 0px -5px 35px rgba(0, 0, 0, 0.4);
+}
+
+.central h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 23px;
+    color: white;
+    text-shadow: 2px 8px 6px rgba(69, 69, 69, 0.3), 0px -5px 35px rgba(0, 0, 0, 0.4);
+}
+
+.cardpai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding-bottom: 229px;
+}
+
+.card, .card1, .card2, .card3 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(66, 136, 136);
+    border-radius: 30px;
+    align-items: end;
+    justify-content: center;
+}
+
+.card1 {
+    background-image: url(img/cirurgia-animal-marcar.jpg);
+    background-size: 400px 250px;
+    background-repeat: no-repeat;
+}
+
+.card2 {
+    background-image: url(img/raio-x-de-cachorro.jpg);
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+}
+
+.card3 {
+    background-image: url(img/close-up-veterinarian-taking-care-dog.jpg);
+    background-size: 400px 250px;
+    background-repeat: no-repeat;
+}
+
+.card1 a, .card2 a, .card3 a {
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+}
+.card1 p, .card2 p, .card3 p {
+    position: absolute;
+    display: flex;
+    max-width: 310px;
+    top: 265%;
+    margin-left: 25px;
+}
+
+.card a {
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    transition: 0.4s;
+    background-color: rgb(53, 149, 149);
+    cursor: pointer;
+    box-shadow: rgb(146, 146, 146, 0.8) 0px 12px 22px;
+}
+
+.consultas {
+    margin: auto;
+    background-color: rgb(37, 111, 111, 0.9);
+    width: 90%;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.consultas h2 {
+    font-weight: lighter;
+    display: flex;
+    font-size: 62px;
+    position: absolute;
+    top: 330%;
+    left: 35%;
+    z-index: 2;
+    color: white;
+}
+
+.consultas img {
+    position: absolute;
+    top: 325%;
+    left: 13.7%;
+    z-index: 3;
+    filter: drop-shadow(19px 5px 10px rgba(0, 0, 0, 0.315));
+}
+
+.forma {
+    height: 580px;
+    width: 580px;
+    background-color: rgb(56, 206, 206, 0.6);
+    position: absolute;
+    top: 304%;
+    left: 9%;
+    border-radius: 100%;
+}
+
+.contato img {
+    z-index: 6;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 87%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.consultas button {
+    font-family: "Red Hat Display", sans-serif;
+    position: absolute;
+    top: 365%;
+    left: 60%;
+    font-weight: lighter;
+    font-size: large;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 206, 206, 0.6);
+    text-shadow: rgb(23, 65, 77, 0.8) 2px 2px 3px;
+    width: 180px;
+    border: none;
+    height: 90px;
+    cursor: pointer;
+    border: solid 0.5px white;
+}
+
+.consultas button:hover {
+    background-color: rgb(7, 101, 117);
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    border: solid 1px white;
+}
+
+footer {
+    background-color: rgb(53, 190, 190);
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0 0 0;
+    border-radius: 30px 30px 0px 0px;
+    padding: 10px;
+}
+
+footer li a {
+    padding: 65px 65px 50px 65px;
+}
+
+footer ul {
+    padding: 25px;
+}
+
+footer a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1032px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        height: 26vh;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border: solid 1px white;
+    }
+
+    .central {
+        width: 90%;
+        height: 57%;
+        position: absolute;
+        top: 628px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .central iframe {
+        position: relative;
+        left: 50%;
+        top: -5%;
+        transform: translate(-50%);
+        width: 70%;
+        height: 50%;
+    }
+
+    .central h3 {
+        font-size: 26px;
+        margin: 20px;
+    }
+
+    .central h2 {
+        font-size: 16px;
+        margin-top: 2px;
+    }
+
+    .central p {
+        font-size: 12px;
+    }
+
+    .hero {
+        margin-left: 50px;
+    }
+
+    .hero h1 {
+        display: flex;
+        padding-left: 20px;
+        margin-top: -50px;
+        font-size: 38px;
+    }
+
+    .hero button {
+        position: absolute;
+        left: 50%;
+        width: 40%;
+        transform: translate(-50%);
+        top: 55%;
+    }
+
+    .hero h2 {
+        padding-top: 690px;
+    }
+
+    .hero p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80%;
+        padding: 0;
+        max-width: 85%;
+        margin-top: 5px;
+    }
+
+    .hero img {
+        position: absolute;
+        width: 375px;
+        left: 50%;
+        top: 76%;
+        transform: translate(-50%);
+    }
+
+    .cardpai {
+        margin-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    .card1 p, .card2 p, .card3 p {
+        display: none;
+    }
+
+    .card1, .card2, .card3 {
+        width: 70%;
+        height: 180px;
+        border: solid rgb(7, 116, 105) 3px;
+    }
+
+    .card1 a, .card2 a {
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(7, 116, 105);
+        border-radius: 20px 20px 0px 0px;
+        padding: 7px 10px;
+        margin-bottom: 0px;
+    }
+
+    .card3 a {
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(7, 116, 105);
+        border-radius: 20px 20px 0px 0px;
+        padding: 7px 10px;
+        margin-bottom: 0px;
+    }
+
+    .forma {
+        position: absolute;
+        width: 70%;
+        height: 40%;
+        top: 328%;
+        left: 50%;
+        transform: translate(-50%);
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0.4) 34%, rgba(4, 168, 168, 0.589) 73%);
+    }
+
+    .consultas {
+        height: 18%;
+    }
+
+    .consultas img {
+        width: 55%;
+        top: 340%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .consultas h2 {
+        font-size: 20px;
+        left: 67%;
+        transform: translate(-50%);
+        top: 336%;
+    }
+
+    .consultas button {
+        width: 35%;
+        height: 10%;
+        font-size: 14px;
+        top: 371%;
+        left: 50%;
+        border: solid rgb(240, 255, 255) 0.5px;
+        color: rgb(255, 255, 255);
+        transform: translate(-50%);
+        font-weight: bold;
+        background-color: rgb(0, 0, 0, 0.4);
+    }
+
+    footer {
+        background-color: rgb(53, 190, 190);
+        display: flex;
+        justify-content: space-around;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    footer li a {
+        padding: 1rem;
+    }
+
+    footer ul {
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        border: none;
+    }
+
+    footer a:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
